@@ -175,6 +175,7 @@ if __name__=="__main__":
 	if len(sys.argv) < 2:
 		sys.exit("Usage : neko.py <file_list>")
 	else:
+		os.system("xdg-open https://youtube.com/channel/UCfTsQXMv33z6geEbaeZMi5w")
 		NekoExtractor(sys.argv[1])
 
 # contact : https://t.me/aditia_dtz
